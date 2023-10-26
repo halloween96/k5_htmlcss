@@ -1,0 +1,16 @@
+#btdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    height: 80px;
+}

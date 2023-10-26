@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 복습</title>
+    <style>
+        main {
+            margin-left: 20vw;
+            width: 60vw;
+            height: 60vh;
+            background-color:cornflowerblue;
+        }
+        section {
+            background-color: aliceblue;
+        }
+        ul {
+            border: 1px solid black;
+        }
+        main, section, ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        section, ul {
+            width: 80%;
+            height: 80%;
+        }
+        li {
+            width: 80%;
+            border: 2px dotted green;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <ul>
+                <li>박스1</li>
+                <li>박스2</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
