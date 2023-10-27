@@ -8,19 +8,24 @@ section {
     align-items: center;
     margin-bottom: 20px;
 }
-.btc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+
+#sec {
+    background-color: aliceblue;
 }
-.cmsg{
+.secDiv{
+    width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: blueviolet;
-    color: white;
-    font-weight: bold;
-    width: 50%;
-    height: 80px;
+}
+h2 {
+    text-align: center;
+}
+.cmsg {
+    margin-top: 30px;
+    display: flex;
+}
+button {
+    padding: 10px 30px;
+    font-size: 1em;
 }
