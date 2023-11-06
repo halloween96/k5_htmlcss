@@ -1,0 +1,49 @@
+section {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#sec {
+    background-color: aliceblue;
+}
+.secDiv{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+}
+.cmsg {
+    margin-top: 30px;
+    display: flex;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid #999;
+    height: 26px;
+    width: 160px;
+}
+input:focus{
+    outline:2px solid #79edff;
+}
+input::placeholder{
+    font-size: 15px;
+    color: #999;
+}
+button {
+    height: 30px;
+    font-size: 15px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
