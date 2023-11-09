@@ -44,8 +44,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
         if (userNum === randomNum){
             // 맞춘 경우
             Img.setAttribute("src", "./images/good.png")
-            msg.innerHTML = "Good."
+            msg.innerHTML = "Good"
             divShow(btDiv1, btDiv2, false);
+            txt.value = '';
         }else if(userNum > randomNum){
             // down
             Img.setAttribute("src", "./images/down.png")

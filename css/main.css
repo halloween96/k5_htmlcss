@@ -53,3 +53,22 @@ button:hover{
     background-color: #20eddd;
     cursor: pointer;
 }
+section {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#sec {
+    background-color: aliceblue;
+}
+#secDiv{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
