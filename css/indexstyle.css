@@ -34,12 +34,11 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #F4BF96;
 }
 ol li {
-    width: 120px;
-    height: 30px;
-    line-height: 30px;
+    padding: 5px;
     background-color: white;
     text-align: center;
     border-radius: 15px;
