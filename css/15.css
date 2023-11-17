@@ -1,0 +1,26 @@
+.fdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divb{
+    display: flex;
+    width: 306px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.divb > div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+.div1{
+    width: 100%;
+}
+.div1 > button{
+    width: 100%;
+    margin: 10px 0 0 0;
+}

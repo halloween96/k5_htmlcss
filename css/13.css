@@ -1,0 +1,14 @@
+form{
+    width: 100%;
+}
+.fdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sp{
+    font-size: large;
+}
+.sp:hover{
+    cursor: pointer;
+}
