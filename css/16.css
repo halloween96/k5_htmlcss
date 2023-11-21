@@ -1,0 +1,79 @@
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: inline-flex;
+    height: 30px;
+    width: 200px;
+    font-size: 1.2em;
+}
+#dtdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fdiv{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dtc{
+    display: flex;
+    flex-direction: column;
+}
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid #FEFAE0;
+    border-collapse: collapse;
+    padding: 5px 0;
+}
+th, tr{
+    height: 30px;
+}
+th{
+    background-color: #CCD5AE;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #E9EDC9;
+}
+.sp1{
+    text-align: center;
+}
+.sp2{
+    text-align: left;
+}
+.sp3{
+    text-align: right;
+}
+legend{
+    padding: 5px;
+    text-align: center;
+    font-size: 1.1em;
+}
+fieldset{
+    display: flex;
+    padding: 0 30px;
+    padding-bottom: 5px;
+}
+fieldset input{
+    width: 10px;
+    height: 10px;
+    margin: 6px 5px 0 10px;
+}
+label{
+    padding-right: 5px;
+}
+.indiv{
+    width: 10%;
+}
+#bt{
+    margin: 0;
+    margin-top: 10%;
+    width: 100%;
+}
